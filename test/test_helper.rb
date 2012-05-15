@@ -1,7 +1,7 @@
 require 'test/unit'
 require 'xml-object'
 
-%w[ active_support libxml ruby-debug leftright ].each do |library|
+%w[ active_support/all libxml ruby-debug leftright ].each do |library|
   begin
     require library
   rescue LoadError
